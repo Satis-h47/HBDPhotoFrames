@@ -1,0 +1,65 @@
+{
+    "lang": "English",
+    "screens": {
+        "home":"Home",
+        "language":"Language",
+        "creations":"Creations",
+        "settings":"Settings"
+    },
+    "homeScreen":{
+        "heading":"Happy birthday photo frame",
+        "subHeading":"Popular Frames",
+        "single":"Single",
+        "double":"Double",
+        "creations":"Creations",
+        "photoOnCake":"Photo on Cake",
+        "rateUs":"Rate us"
+    },
+    "editorScreen":{
+        "headingSingle": "Birthday Single Frames",
+        "headingDouble": "Birthday Double Frames",
+        "headingCake": "Photo On Cake Frames",
+        "save":"Save",
+        "menu":{
+            "frames":"Frames",
+            "stickers":"Stickers",
+            "text":"Text",
+            "filters":"Filters"
+        },
+        "text":{
+            "enterText":"Enter Text",
+            "text":"Text",
+            "color":"Color",
+            "rotation":"Rotation",
+            "font":"Font"
+        },
+        "color":{
+            "text":"Text",
+            "background":"Background",
+            "shadow":"Shadow"
+        },
+        "rotation":{
+            "horizontal":"Horizontal",
+            "vertical":"Vertical",
+            "reset":"Reset"
+        },
+        "imgOptions":{
+            "changePhoto":"Change photo",
+            "reflect":"Reflect",
+            "rotate":"Rotate",
+            "okay":"Okay"
+        }
+    },
+    "languageScreen":{
+        "heading":"Language",
+        "done":"Done"
+    },
+    "specificFrScreen":{
+        "single":"Birthday Single Frames",
+        "double":"Birthday Double Frames",
+        "default":"Photo On Cake Frames"
+    },
+    "creationsScreen":{
+        "heading":"My Creations"
+    }
+}

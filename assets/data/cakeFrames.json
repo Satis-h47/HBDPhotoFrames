@@ -1,0 +1,218 @@
+[
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/portrait/1.png",
+    "frame1":     {
+        "left": 59,
+        "top": 459,
+        "right": 73,
+        "bottom": 279
+    }
+  },
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/portrait/2.png",
+    "frame1":     {
+        "left": 69,
+        "top": 668,
+        "right": 55,
+        "bottom": 298
+    }
+  },
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/portrait/3.png",
+    "frame1":   {
+        "left": 99,
+        "top": 579,
+        "right": 145,
+        "bottom": 335
+    }
+  },
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/portrait/4.png",
+    "frame1":  {
+        "left": 61,
+        "top": 181,
+        "right": 55,
+        "bottom": 517
+    }
+  },
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/portrait/5.png",
+    "frame1":     {
+        "left": 159,
+        "top": 399,
+        "right": 155,
+        "bottom": 545
+    }
+  },
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/portrait/6.png",
+    "frame1": {
+        "left": 65,
+        "top": 607,
+        "right": 95,
+        "bottom": 389
+    }
+  },
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/portrait/7.png",
+    "frame1":   {
+        "left": 148,
+        "top": 580,
+        "right": 78,
+        "bottom": 438
+    }
+  },
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/portrait/8.png",
+    "frame1": {
+        "left": 123,
+        "top": 247,
+        "right": 130,
+        "bottom": 633
+    }
+  },
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/portrait/9.png",
+    "frame1": {
+        "left": 73,
+        "top": 493,
+        "right": 69,
+        "bottom": 363
+    }
+  },
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/portrait/10.png",
+    "frame1":  {
+        "left": 33,
+        "top": 733,
+        "right": 85,
+        "bottom": 79
+    }
+  },
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/portrait/11.png",
+    "frame1":  {
+        "left": 29,
+        "top": 323,
+        "right": 31,
+        "bottom": 397
+    }
+  },
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/portrait/12.png",
+    "frame1": {
+        "left": 131,
+        "top": 737,
+        "right": 132,
+        "bottom": 241
+    }
+  },
+ {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/square/1.png",
+    "frame1": {
+        "left": 268,
+        "top": 128,
+        "right": 271,
+        "bottom": 478
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/square/2.png",
+    "frame1": {
+        "left": 175,
+        "top": 214,
+        "right": 227,
+        "bottom": 223
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/square/3.png",
+    "frame1": {
+        "left": 272,
+        "top": 566,
+        "right": 195,
+        "bottom": 40
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/square/4.png",
+    "frame1":{
+        "left": 127,
+        "top": 338,
+        "right": 240,
+        "bottom": 114
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/square/5.png",
+    "frame1": {
+        "left": 56,
+        "top": 141,
+        "right": 86,
+        "bottom": 94
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/square/6.png",
+    "frame1":{
+        "left": 195,
+        "top": 277,
+        "right": 192,
+        "bottom": 215
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/square/7.png",
+    "frame1": {
+        "left": 61,
+        "top": 120,
+        "right": 69,
+        "bottom": 110
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/square/8.png",
+    "frame1": {
+        "left": 168,
+        "top": 236,
+        "right": 159,
+        "bottom": 190
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/square/9.png",
+    "frame1":{
+        "left": 114,
+        "top": 125,
+        "right": 123,
+        "bottom": 153
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/square/10.png",
+    "frame1": {
+        "left": 151,
+        "top": 383,
+        "right": 184,
+        "bottom": 186
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/square/11.png",
+    "frame1":{
+        "left": 161,
+        "top": 245,
+        "right": 169,
+        "bottom": 188
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/photooncake/square/12.png",
+    "frame1": {
+        "left": 178,
+        "top": 360,
+        "right": 197,
+        "bottom": 202
+    }
+  }
+]

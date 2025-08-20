@@ -1,0 +1,153 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/ahundredmiles.ttf",
+      "sha1": "0f1bf00e7d279b150038210ceded66b24f0ba657"
+    },
+    {
+      "path": "assets/fonts/binz.ttf",
+      "sha1": "87297f5882cc76006139706051ed98ceca015825"
+    },
+    {
+      "path": "assets/fonts/blunt.ttf",
+      "sha1": "f42a0f09d756f7476a879b016691c383c4defeb6"
+    },
+    {
+      "path": "assets/fonts/caviardreams.ttf",
+      "sha1": "fdbae680e53ea7f5c7a47d59bc5588553ff97f40"
+    },
+    {
+      "path": "assets/fonts/digiclock.ttf",
+      "sha1": "126da1a82a1491b962982cb0be5f3d8e0b23d077"
+    },
+    {
+      "path": "assets/fonts/font_abc_1.ttf",
+      "sha1": "bf4cf59e072d2534668b363150d1c263f358e5d1"
+    },
+    {
+      "path": "assets/fonts/font_abc_2.ttf",
+      "sha1": "5cdb46cc2659961f34b24cc04e19bb65766a9094"
+    },
+    {
+      "path": "assets/fonts/font_abc_3.otf",
+      "sha1": "6abc6384f14aeb910e0530201ed26a06ddaddbe5"
+    },
+    {
+      "path": "assets/fonts/font_abc_4.otf",
+      "sha1": "6e127397e1798ca0201b5fe60dc5d783003c9af8"
+    },
+    {
+      "path": "assets/fonts/font_abc_5.ttf",
+      "sha1": "0b2db4b5c87c7382516b4287c77926c9c446aa6c"
+    },
+    {
+      "path": "assets/fonts/font_abc_6.ttf",
+      "sha1": "4eb0e0f5c58abc2465b72e698a0873f0fbf82f2d"
+    },
+    {
+      "path": "assets/fonts/font_abc_7.ttf",
+      "sha1": "39e897779267b77f4cce2df00ab01683bed91ca1"
+    },
+    {
+      "path": "assets/fonts/font_abc_8.ttf",
+      "sha1": "d1ac3ae93e95641cd799a691a20dc820295e0240"
+    },
+    {
+      "path": "assets/fonts/freeuniversalbold.ttf",
+      "sha1": "f508066d1d6f155595f6b513c8b571a8317c6b70"
+    },
+    {
+      "path": "assets/fonts/gooddog.otf",
+      "sha1": "30d84976aa112ae4185e60213a723717a0a2a01f"
+    },
+    {
+      "path": "assets/fonts/gtw.ttf",
+      "sha1": "d5cd47feb2d2e2eeac6a2f4ddc83006813c1c2fd"
+    },
+    {
+      "path": "assets/fonts/handtest.ttf",
+      "sha1": "a7076088547110b92b7217dea357e7d384da49e3"
+    },
+    {
+      "path": "assets/fonts/jester.ttf",
+      "sha1": "d4f41b86d7101eb59553d351d018588f9076d2e9"
+    },
+    {
+      "path": "assets/fonts/junctions.otf",
+      "sha1": "f5149b2674df8caec519b78187030facb335de06"
+    },
+    {
+      "path": "assets/fonts/laine.ttf",
+      "sha1": "67f24b8aa1a144160bb001a026c7de882e999326"
+    },
+    {
+      "path": "assets/fonts/mfstillkindaridiculous.ttf",
+      "sha1": "0ebb7654c48d53372a0946eac330d3da36d6876d"
+    },
+    {
+      "path": "assets/fonts/notcouriersans.otf",
+      "sha1": "09b674bfbef9b82457e575c30ae080958db631e4"
+    },
+    {
+      "path": "assets/fonts/oldfolksshuffle.ttf",
+      "sha1": "a969294167b5bd0aedc484503f978676baaf1cb8"
+    },
+    {
+      "path": "assets/fonts/ospdin.ttf",
+      "sha1": "cd62db755050ab8cbded570840519210f182f005"
+    },
+    {
+      "path": "assets/fonts/otfpoc.otf",
+      "sha1": "d073134603da3e94555202b97cff6fdb663710e9"
+    },
+    {
+      "path": "assets/fonts/pacifico.ttf",
+      "sha1": "e2c6924078183bd9fee72e8a6b3992dc637580f0"
+    },
+    {
+      "path": "assets/fonts/primalream.otf",
+      "sha1": "628a1a5feb4d79ab50dc9bda5bb22be06fa47106"
+    },
+    {
+      "path": "assets/fonts/quicksandregular.otf",
+      "sha1": "cd44de2b69b723902d81f2a53613b7e94adda1ec"
+    },
+    {
+      "path": "assets/fonts/robotothin.ttf",
+      "sha1": "a801874fb3f891ae45abb31484cf042f1c34d481"
+    },
+    {
+      "path": "assets/fonts/romanantique.ttf",
+      "sha1": "e468a926bc799623517ad3db31da1f026900df52"
+    },
+    {
+      "path": "assets/fonts/semplicita_light.otf",
+      "sha1": "e70d09bd88a2fa623e7652200b5765a718072fec"
+    },
+    {
+      "path": "assets/fonts/serreriasobria.otf",
+      "sha1": "286b39784a296b15576a7297fd80c4fcf0594150"
+    },
+    {
+      "path": "assets/fonts/sofiaregular.ttf",
+      "sha1": "20a7c7708c1876f0d3151461e8e6d7b6676ab93b"
+    },
+    {
+      "path": "assets/fonts/stratolinked.ttf",
+      "sha1": "59173264b74d59572be40bd751ff46cc179682c4"
+    },
+    {
+      "path": "assets/fonts/vinque.ttf",
+      "sha1": "eec2937b506e85b4e8f3663054d40ace8bb25ed3"
+    },
+    {
+      "path": "assets/fonts/waltographul.ttf",
+      "sha1": "6c37c7c8cee360d546479c7476a26a8cd384d290"
+    },
+    {
+      "path": "assets/fonts/windsong.ttf",
+      "sha1": "c8ba6f60c08910497ccf1e0f4e9e8551a29ba948"
+    }
+  ]
+}

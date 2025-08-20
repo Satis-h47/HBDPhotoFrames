@@ -1,0 +1,65 @@
+{
+    "lang": "fr-English",
+    "screens": {
+        "home": "fr-Home",
+        "language": "fr-Language",
+        "creations": "fr-Creations",
+        "settings": "fr-Settings"
+    },
+    "homeScreen": {
+        "heading": "fr-Happy birthday photo frame",
+        "subHeading": "fr-Popular Frames",
+        "single": "fr-Single",
+        "double": "fr-Double",
+        "creations": "fr-Creations",
+        "photoOnCake": "fr-Photo on Cake",
+        "rateUs":"fr-Rate us"
+    },
+    "editorScreen": {
+        "headingSingle": "fr-Birthday Single Frames",
+        "headingDouble": "fr-Birthday Double Frames",
+        "headingCake": "fr-Photo On Cake Frames",
+        "save":"fr-Save",
+        "menu": {
+            "frames": "fr-Frames",
+            "stickers": "fr-Stickers",
+            "text": "fr-Text",
+            "filters": "fr-Filters"
+        },
+        "text": {
+            "enterText": "fr-Enter Text",
+            "text": "fr-Text",
+            "color": "fr-Color",
+            "rotation": "fr-Rotation",
+            "font": "fr-Font"
+        },
+        "color": {
+            "text": "fr-Text",
+            "background": "fr-Background",
+            "shadow": "fr-Shadow"
+        },
+        "rotation": {
+            "horizontal": "fr-Horizontal",
+            "vertical": "fr-Vertical",
+            "reset": "fr-Reset"
+        },
+        "imgOptions": {
+            "changePhoto": "fr-Change photo",
+            "reflect": "fr-Reflect",
+            "rotate": "fr-Rotate",
+            "okay":"fr-Okay"
+        }
+    },
+    "languageScreen":{
+        "heading":"fr-Language",
+        "done":"fr-Done"
+    },
+    "specificFrScreen":{
+        "single":"fr-Birthday Single Frames",
+        "double":"fr-Birthday Double Frames",
+        "default":"fr-Photo On Cake Frames"
+    },
+    "creationsScreen":{
+        "heading":"fr-My Creations"
+    }
+}

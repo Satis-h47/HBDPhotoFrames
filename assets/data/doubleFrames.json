@@ -1,0 +1,272 @@
+[
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/portrait/1.png",
+    "frame1": {
+      "left": 26,
+      "top": 29,
+      "right": 245,
+      "bottom": 941
+    },
+      "frame2": {
+      "left": 243,
+      "top": 317,
+      "right": 25,
+      "bottom": 653
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/portrait/2.png",
+    "frame1": {
+      "left": 23,
+      "top": 51,
+      "right": 374,
+      "bottom": 827
+    },
+      "frame2": {
+      "left": 387,
+      "top": 189,
+      "right": 23,
+      "bottom": 707
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/portrait/3.png",
+    "frame1": {
+      "left": 24,
+      "top": 29,
+      "right": 388,
+      "bottom": 807
+    },
+      "frame2": {
+      "left": 377,
+      "top": 135,
+      "right": 39,
+      "bottom": 701
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/portrait/4.png",
+    "frame1": {
+      "left": 16,
+      "top": 34,
+      "right": 309,
+      "bottom": 901
+    },
+      "frame2": {
+      "left": 301,
+      "top": 291,
+      "right": 13,
+      "bottom": 651
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/portrait/5.png",
+    "frame1": {
+      "left": 81,
+      "top": 85,
+      "right": 350,
+      "bottom": 897
+    },
+      "frame2": {
+      "left": 323,
+      "top": 537,
+      "right": 87,
+      "bottom": 435
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/portrait/6.png",
+    "frame1": {
+      "left": 28,
+      "top": 27,
+      "right": 335,
+      "bottom": 885
+    },
+      "frame2": {
+      "left": 247,
+      "top": 429,
+      "right": 109,
+      "bottom": 485
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/square/1.png",
+    "frame1": {
+      "left": 34,
+      "top": 87,
+      "right": 421,
+      "bottom": 347
+    },
+      "frame2": {
+      "left": 452,
+      "top": 22,
+      "right": 20,
+      "bottom": 445
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/square/2.png",
+    "frame1": {
+      "left": 25,
+      "top": 38,
+      "right": 428,
+      "bottom": 415
+    },
+      "frame2": {
+      "left": 425,
+      "top": 41,
+      "right": 27,
+      "bottom": 412
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/square/3.png",
+    "frame1": {
+      "left": 28,
+      "top": 19,
+      "right": 448,
+      "bottom": 432
+    },
+      "frame2": {
+      "left": 440,
+      "top": 22,
+      "right": 33,
+      "bottom": 424
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/square/4.png",
+    "frame1": {
+      "left": 13,
+      "top": 21,
+      "right": 415,
+      "bottom": 406
+    },
+      "frame2": {
+      "left": 416,
+      "top": 21,
+      "right": 14,
+      "bottom": 403
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/square/5.png",
+    "frame1": {
+      "left": 38,
+      "top": 19,
+      "right": 492,
+      "bottom": 428
+    },
+      "frame2": {
+      "left": 486,
+      "top": 19,
+      "right": 42,
+      "bottom": 429
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/square/6.png",
+    "frame1": {
+      "left": 37,
+      "top": 34,
+      "right": 419,
+      "bottom": 472
+    },
+      "frame2": {
+      "left": 34,
+      "top": 379,
+      "right": 422,
+      "bottom": 126
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/landscape/1.png",
+    "frame1": {
+      "left": 26,
+      "top": 32,
+      "right": 527,
+      "bottom": 205
+    },
+      "frame2": {
+      "left": 523,
+      "top": 35,
+      "right": 33,
+      "bottom": 205
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/landscape/2.png",
+    "frame1": {
+      "left": 99,
+      "top": 27,
+      "right": 483,
+      "bottom": 263
+    },
+      "frame2": {
+      "left": 486,
+      "top": 22,
+      "right": 85,
+      "bottom": 249
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/landscape/3.png",
+    "frame1": {
+      "left": 50,
+      "top": 58,
+      "right": 551,
+      "bottom": 241
+    },
+      "frame2": {
+      "left": 550,
+      "top": 57,
+      "right": 54,
+      "bottom": 241
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/landscape/4.png",
+    "frame1": {
+      "left": 32,
+      "top": 27,
+      "right": 464,
+      "bottom": 266
+    },
+      "frame2": {
+      "left": 459,
+      "top": 26,
+      "right": 39,
+      "bottom": 266
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/landscape/5.png",
+    "frame1": {
+      "left": 10,
+      "top": 294,
+      "right": 557,
+      "bottom": 20
+    },
+      "frame2": {
+      "left": 552,
+      "top": 293,
+      "right": 16,
+      "bottom": 21
+    }
+  },
+  {
+    "link": "https://storage.googleapis.com/birthdayphotoframe/birthdaydouble/landscape/6.png",
+    "frame1": {
+      "left": 45,
+      "top": 32,
+      "right": 487,
+      "bottom": 207
+    },
+      "frame2": {
+      "left": 483,
+      "top": 36,
+      "right": 51,
+      "bottom": 208
+    }
+  }
+]
