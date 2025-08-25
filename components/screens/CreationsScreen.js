@@ -26,7 +26,7 @@ export default function CreationsScreen({navigation}){
         const fileExists = await RNFS.exists(filePath);
         if (fileExists) {
           await RNFS.unlink(filePath);
-          console.log('Image deleted:', filePath);
+          // console.log('Image deleted:', filePath);
           return true;
         } else {
           console.warn('File does not exist:', filePath);

@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 
 export default function Frames({getFrame,close, framesData}){
 const [frames, setFrames] = useState(framesData || []);
-console.log(frames)
+// console.log(frames)
   let name = ''
   if(framesData[0].link.includes('single')) name = 'birthdaysingle'
   else if(framesData[0].link.includes('double')) name = 'birthdaydouble'
@@ -24,12 +24,12 @@ console.log(frames)
   }
 
 const storeData = async () => {
-  console.log("hekkhidu");
+  // console.log("hekkhidu");
 
   try {
     // Store the frames data in AsyncStorage
     await AsyncStorage.setItem(string, JSON.stringify(frames));
-    console.log('Data stored successfully');
+    // console.log('Data stored successfully');
   } catch (error) {
     console.error('Failed to store data:', error);
   }

@@ -35,7 +35,7 @@ const saveCreation = async (url) => {
       const result = await Share.share({
         message:
           'React Native | A framework for building native apps using React',
-                    url: 'https://storage.googleapis.com/birthdayphotoframe/birthdaysingle/portrait/2.png',
+                    url: imageUri,
       });
       if (result.action === Share.sharedAction) {
         if (result.activityType) {

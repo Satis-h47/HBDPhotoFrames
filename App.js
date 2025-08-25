@@ -218,7 +218,7 @@ const {i18n} = useTranslation()
     initStorage();
   }, []);
 
-  console.log("loc",RNFetchBlob.fs.dirs.MainBundleDir)
+  // console.log("loc",RNFetchBlob.fs.dirs.MainBundleDir)
 
   // const[font,setFont] = useState('blunt')
     if (loading) {
@@ -231,7 +231,7 @@ const {i18n} = useTranslation()
 
   return (
     <NavigationContainer>
-      <View style={{height:50,backgroundColor:'#eee'}}></View>
+      {/* <View style={{height:50,backgroundColor:'#eee'}}></View> */}
       {/* <Fontchild font={font}/> */}
       {/* <Animated.Text style={{marginTop:100, fontFamily: font, fontSize:30}}>Hello</Animated.Text> */}
       <MyDrawer />

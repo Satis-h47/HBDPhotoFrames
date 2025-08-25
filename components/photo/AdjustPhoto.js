@@ -16,7 +16,8 @@ import { useTranslation } from 'react-i18next';
 
 // console.log("screen",Dimensions.get('screen'))
 
-const AdjustPhoto = forwardRef(({ width, height, showBroder, top, left, photoOptionShow, imageSelected }, ref) => {
+const AdjustPhoto = forwardRef(({ width, height, showBroder, top, left, photoOptionShow, imageSelected,
+    userImage, UpdateUserImage }, ref) => {
     useImperativeHandle(ref, () => ({
         reflectHandle,
         rotateHandle,
@@ -33,7 +34,7 @@ const AdjustPhoto = forwardRef(({ width, height, showBroder, top, left, photoOpt
 
     // console.log('statecha', statechange)
     //   const [ photoOptionShow, setPhotoOptionShow] = useState(false)
-    const [userImage, setUserImage] = useState(null)
+    // const [userImage, setUserImage] = useState(null)
 
     const [reflectX, setReflectX] = useState(1);
     const [reflectY, setReflectY] = useState(1);
@@ -133,7 +134,7 @@ const AdjustPhoto = forwardRef(({ width, height, showBroder, top, left, photoOpt
             console.log('ImagePicker Error: ', result.error);
         } else {
             const localImagePath = result.assets[0].uri;
-            setUserImage(localImagePath)
+            UpdateUserImage(localImagePath)
             imageSelected()
              setReflectX(1);
              setReflectY(1);

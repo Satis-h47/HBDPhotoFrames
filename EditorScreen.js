@@ -5,7 +5,7 @@ import {
   ScrollView, Pressable, TouchableOpacity, ImageBackground, Image as RNImage,
   Platform,
   ActivityIndicator,
-  SafeAreaView
+  SafeAreaView, NativeModules
 } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 // import Pinchable from 'react-native-pinchable'
@@ -54,6 +54,8 @@ import FilterCustomize from './components/filters/FilterCustomize';
 import ScreenHeader from './components/header/ScreenHeader';
 import { useTranslation } from 'react-i18next';
 
+const {ImageFilterModule} = NativeModules;
+
 const EditorScreen = ({ navigation, route }) => {
   const {t} = useTranslation();
 
@@ -96,6 +98,55 @@ const EditorScreen = ({ navigation, route }) => {
   const [photoOptionShow2, setPhotoOptionShow2] = useState(false)
   const [saveButton1, setSaveButton1] = useState(false)
   const [saveButton2, setSaveButton2] = useState(false)
+      const [userImageOne, setUserImageOne] = useState(null)
+      const [userImageOneBUp, setUserImageOneBUp] = useState(null)
+      const [userImageTwo, setUserImageTwo] = useState(null)
+      const [userImageTwoBUp, setUserImageTwoBUp] = useState(null)
+
+        const [brightness, setBrightness] = useState(0.0);
+  const [saturation, setSaturation] = useState(1.0);
+  const [hue, setHue] = useState(0.0);
+
+  useEffect(() => {
+    console.log(0)
+  const debounceTimeout = setTimeout(() => {
+    const applyFilters = async () => {
+      try {
+        const resultPath = await ImageFilterModule.applyFilters(
+          userImageOneBUp,
+          saturation,
+          hue,
+          brightness
+        );
+        // console.log('Filtered image path:', resultPath);
+        // setFilteredImage(resultPath);
+        setUserImageOne(resultPath)
+      } catch (error) {
+        console.error('Filter error:', error);
+      }
+    };
+    const applyFiltersTwo = async () => {
+      try {
+        const resultPath = await ImageFilterModule.applyFilters(
+          userImageTwoBUp,
+          saturation,
+          hue,
+          brightness
+        );
+        // console.log('Filtered image path:', resultPath);
+        // setFilteredImage(resultPath);
+        setUserImageTwo(resultPath)
+      } catch (error) {
+        console.error('Filter error:', error);
+      }
+    };
+
+  if (userImageOneBUp) applyFilters();
+  if (userImageTwoBUp && frameUrl.frame2) applyFiltersTwo();
+  }, 300);
+
+  return () => clearTimeout(debounceTimeout);
+  }, [brightness, saturation, hue]);
 
   const [frames, setFrames] = useState([]);
   // console.log(frames);
@@ -463,9 +514,12 @@ const EditorScreen = ({ navigation, route }) => {
   //   // }
   // };
   function ManageFilters(){
+    Platform.OS == 'android' && alert('iOS devices only support filters')
+
     saveButton1 && (!frameUrl.frame2 || saveButton2) ?
-          setShowFilters(!showFilters) :
-          alert('please select photo')
+          setShowFilters(!showFilters)
+          :
+          alert('Please select photo')
         }
   function shiftShareScreen(savedImage) {
     navigation.navigate('ShareScreen', { savedUri: savedImage })
@@ -556,6 +610,10 @@ rightButton={
                 <AdjustPhoto top={imageDims.top1 + (500 - imageDims.height) / 2} left={imageDims.left1 + (width - imageDims.width) / 2}
                   ref={photoRef} photoOptionShow={photoOptionShow1} imageSelected={() => setSaveButton1(true)}
                   width={imageDims.fwidth1} height={imageDims.fheight1} showBroder={showBroderHandle1}
+                  userImage={userImageOne} UpdateUserImage={(url) => {
+                    setUserImageOne(url)
+                    setUserImageOneBUp(url)
+                  }}
                 />
                 {photoOptionShow1 && <View pointerEvents='box-none' style={{
                   position: 'absolute',
@@ -571,6 +629,10 @@ rightButton={
                   <AdjustPhoto top={imageDims.top2 + (500 - imageDims.height) / 2} left={imageDims.left2 + (width - imageDims.width) / 2}
                     ref={photoRef} photoOptionShow={photoOptionShow2} imageSelected={() => setSaveButton2(true)}
                     width={imageDims.fwidth2} height={imageDims.fheight2} showBroder={showBroderHandle2}
+                    userImage={userImageTwo} UpdateUserImage={(url) => {
+                    setUserImageTwo(url)
+                    setUserImageTwoBUp(url)
+                  }}
                   //  pressed={photoOptionShow}
                   />
                   {photoOptionShow2 && <View pointerEvents='box-none' style={{
@@ -718,7 +780,11 @@ rightButton={
         }
         {showStickers && <StickerCustomize onAdd={Stickerhandle} onClose={closeStickers} />}
         {
-          showFilters && <FilterCustomize onClose={() => setShowFilters(false)}/>
+          showFilters && <FilterCustomize
+          //  updateImageUrl={(url) => setUserImageOne(url)} imageUrl={userImageOneBUp}
+           brightness={brightness} saturation={saturation} hue={hue} setBrightness={(val) => setBrightness(val)}
+           setSaturation={(val) => setSaturation(val)} setHue={(val) => setHue(val)}
+           onClose={() => setShowFilters(false)}/>
         }
         <Modal
           visible={modalVisible}

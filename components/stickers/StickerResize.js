@@ -271,7 +271,7 @@ export default function StickerResize({sticker, onDelete, onTapped}) {
         const startX = gestureState.x0;
         const startY = gestureState.y0;
         const left = width / 2 - 100
-        const top = 500 / 2 - 50
+        const top = 540 / 2 - 50
         const centerX = left + translationX.value + gestureStartSize.current.width / 2;
         const centerY = top + translationY.value + gestureStartSize.current.height / 2;
 

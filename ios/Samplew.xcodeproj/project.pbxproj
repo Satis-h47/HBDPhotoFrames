@@ -44,6 +44,8 @@
 		BC082D00A709427DB9C98F95 /* oldfolksshuffle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE69F570684F4E06A3442BD8 /* oldfolksshuffle.ttf */; };
 		BE229D0E255847EFBF354324 /* vinque.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE304F26A2488395795AC5 /* vinque.ttf */; };
 		D0B090935AFB46AB9111EA2A /* handtest.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34F3785F14BE47758814AF4B /* handtest.ttf */; };
+		D1BDABAE2E55DD8100870C71 /* ImageFilterModuleBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BDABAD2E55DD8100870C71 /* ImageFilterModuleBridge.m */; };
+		D1BDABB02E55DDC000870C71 /* ImageFilterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BDABAF2E55DDC000870C71 /* ImageFilterModule.swift */; };
 		D1E297F92DF3FADD000AFFA7 /* selfie_segmenter.tflite in Resources */ = {isa = PBXBuildFile; fileRef = D1E297F82DF3FADD000AFFA7 /* selfie_segmenter.tflite */; };
 		D1E297FB2DF3FB16000AFFA7 /* BackgroundRemover .swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E297FA2DF3FB16000AFFA7 /* BackgroundRemover .swift */; };
 		D1E297FD2DF3FB6F000AFFA7 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E297FC2DF3FB6F000AFFA7 /* UIImage+Utils.swift */; };
@@ -98,6 +100,8 @@
 		C8610ABEA7AE4C32908EED8A /* otfpoc.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = otfpoc.otf; path = ../assets/fonts/otfpoc.otf; sourceTree = "<group>"; };
 		CA250542E42E42D18CC13BCD /* gooddog.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = gooddog.otf; path = ../assets/fonts/gooddog.otf; sourceTree = "<group>"; };
 		CE31B0D5F84A419FA490B5CE /* font_abc_3.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = font_abc_3.otf; path = ../assets/fonts/font_abc_3.otf; sourceTree = "<group>"; };
+		D1BDABAD2E55DD8100870C71 /* ImageFilterModuleBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFilterModuleBridge.m; sourceTree = "<group>"; };
+		D1BDABAF2E55DDC000870C71 /* ImageFilterModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilterModule.swift; sourceTree = "<group>"; };
 		D1E297F82DF3FADD000AFFA7 /* selfie_segmenter.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = selfie_segmenter.tflite; sourceTree = "<group>"; };
 		D1E297FA2DF3FB16000AFFA7 /* BackgroundRemover .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BackgroundRemover .swift"; sourceTree = "<group>"; };
 		D1E297FC2DF3FB6F000AFFA7 /* UIImage+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
@@ -201,6 +205,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D1BDABAF2E55DDC000870C71 /* ImageFilterModule.swift */,
+				D1BDABAD2E55DD8100870C71 /* ImageFilterModuleBridge.m */,
 				D1E297FF2DF3FD5B000AFFA7 /* BackgroundRemoverBridge.m */,
 				D1E297FC2DF3FB6F000AFFA7 /* UIImage+Utils.swift */,
 				D1E297FA2DF3FB16000AFFA7 /* BackgroundRemover .swift */,
@@ -427,8 +433,10 @@
 			files = (
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
 				D1E298002DF3FD5B000AFFA7 /* BackgroundRemoverBridge.m in Sources */,
+				D1BDABAE2E55DD8100870C71 /* ImageFilterModuleBridge.m in Sources */,
 				D1E297FB2DF3FB16000AFFA7 /* BackgroundRemover .swift in Sources */,
 				D1E297FD2DF3FB6F000AFFA7 /* UIImage+Utils.swift in Sources */,
+				D1BDABB02E55DDC000870C71 /* ImageFilterModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,10 +568,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -632,10 +637,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

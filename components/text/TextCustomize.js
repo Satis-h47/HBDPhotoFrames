@@ -171,13 +171,13 @@ const {t} = useTranslation();
                     </Pressable>
                     <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                         <Text style={{ width: 70, textAlign: 'center' }}>{t('editorScreen.rotation.horizontal')}</Text>
-                        <CustomSlider
+                        <CustomSlider min={-100} max={100} eachStep={1}
                             value={tappedItem.rotatedX}
                             onValueChange={(val) => rotateX(val)} />
                     </View>
                     <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                         <Text style={{ width: 70, textAlign: 'center' }}>{t('editorScreen.rotation.vertical')}</Text>
-                        <CustomSlider
+                        <CustomSlider min={-100} max={100} eachStep={1}
                             value={tappedItem.rotatedY}
                             onValueChange={(val) => rotateY(val)} />
                     </View>

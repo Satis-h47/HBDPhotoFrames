@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 import Slider from '@react-native-community/slider';
 
-const CustomSlider = ({value, onValueChange }) => {
+const CustomSlider = ({value, onValueChange, min, max, eachStep }) => {
     const [sliderLayout, setSliderLayout] = useState(null);
 
-  const min = -100;
-  const max = 100;
+  // const min = -100;
+  // const max = 100;
 
   const percentage = ((value - min) / (max - min)) * 100;
   const zeroPos = ((0 - min) / (max - min)) * 100;
@@ -53,7 +53,7 @@ const CustomSlider = ({value, onValueChange }) => {
         style={styles.slider}
         minimumValue={min}
         maximumValue={max}
-        step={1}
+        step={eachStep}
         value={value}
         onValueChange={onValueChange}
         minimumTrackTintColor="transparent"
